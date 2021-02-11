@@ -14,7 +14,7 @@ Our main objective is to analyze the time series data in order to extract meanin
 
 ## **Methodology** 
 
-<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/main/Images/Process_outline.JPG">
+<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/master/Images/Process_outline.JPG">
 
 ## **Data Source**<br>
 ### **Kaggle**<br>
@@ -71,22 +71,22 @@ In this starting stage we analyze each of the features in the dataset. Mainly th
 
 Some of the visualizations from the analysis are shown below. A more detailed version can be found with the code. 
 
-<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/main/Images/1.JPG">
+<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/master/Images/1.JPG">
 
-<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/main/Images/2.JPG">
+<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/master/Images/2.JPG">
 
-<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/main/Images/3.JPG">
+<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/master/Images/3.JPG">
 
-<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/main/Images/4.JPG">
+<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/master/Images/4.JPG">
 
-<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/main/Images/5.JPG">
+<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/master/Images/5.JPG">
 
 
 ### **Time Series Analysis** 
 
 This mainly involves the analysis of `Sales` across the `Order Date`. We first plot the sales across the different perdiod available in order to understand the trend and seasonality. Then we split the date into month and year and calculated the mean `Sales` for each month across the different years. Below you can a see the `Sales` trend across different months for each year present in the data. 
 
-<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/main/Images/6.JPG">
+<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/master/Images/6.JPG">
 
 ### **Data Preprocessing**
 
@@ -135,7 +135,7 @@ Prophet is a procedure for forecasting time series data based on an additive mod
 
 The following bar plot shows the comparison between our 5 models based on RMSE value. As you can see ARIMA has less RMSE and came out as the top model for the `Sales` forecast.
 
-<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/main/Images/model_comp.jpeg">
+<img src = "https://github.com/pinkesh-nayak/Time_Series_Analysis_of_Superstore_Sales_Data/blob/master/Images/model_comp.jpeg">
 
 ## **Who might be interested in this data**
 
